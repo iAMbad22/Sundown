@@ -1,0 +1,127 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes move {
+    0% {
+      transform: translate(-15%, -15%);
+    }
+    100% {
+      transform: translate(0%, 0%);
+    }
+    
+  }
+  
+  .animate-move {
+    animation: move 3s linear infinite alternate;
+  }
+
+  @keyframes move2 {
+    0% {
+      transform: translate(0%, 0%);
+    }
+    100% {
+      transform: translate(25%, -15%);
+    }
+  }
+  
+  .animate-move2 {
+    animation: move2 3s linear infinite alternate;
+  }
+
+  @keyframes move3 {
+    0% {
+      transform: translate(0%, -27%);
+    }
+    50% {
+      transform: translate(-7%, -8%);
+    }
+    100% {
+      transform: translate(-15%, 0%);
+    }
+  }
+  
+  .animate-move3 {
+    animation: move3 5s ease-in-out infinite alternate;
+  }
+
+  @keyframes move4 {
+    0% {
+      transform: translate(0%);
+    }
+    100% {
+      transform: translate(-100%);
+    }
+  }
+  .animate-move4 {
+    animation: move4 10s linear infinite ;
+  }
+
+  @keyframes ani1 {
+
+    0% {
+      transform: translate(7%,-7%);
+    }
+    100% {
+      transform: translate(0%,0%);
+    }
+    
+  }
+  .animate-ani1 {
+    animation: ani1 2s ease-in-out infinite alternate;
+  }
+
+  @keyframes ani2 {
+    0% {
+      transform: translate(6%, -6%) skew(0deg, 0deg);
+    }
+    50% {
+      transform: translate(-11%, 8%) skew(8deg, 8deg);
+    }
+    100% {
+      transform: translate(-15%, 15%) skew(1deg, 1deg);
+    }
+  }
+  .animate-ani2 {
+    animation: ani2 4s ease-in-out infinite alternate;
+  }  
+
+  @keyframes ani3 {
+    0% {
+      transform: translate(-40%, -33%) skew(30deg, -32deg);
+    }
+    100% {
+      transform: translate(-10%, -88%) skew(20deg, -30deg);
+    }
+  }
+  .animate-ani3 {
+    animation: ani3 5s ease-in-out infinite alternate;
+  }  
+
+
+  @keyframes ani4 {
+    0% {
+      transform: translate(14%, -20%) rotate(25deg);
+    }
+    100% {
+      transform: translate(-14%, -100%) rotate(39deg);
+    }
+  }
+  .animate-ani4 {
+    animation: ani4 5s ease-in-out infinite alternate;
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(-25%);
+      animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    }
+    50% {
+      transform: translateY(-12%);
+      animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+  }
+
+  .animate-ani5 {
+    animation: bounce 12s ease-in-out infinite alternate;
+  }
