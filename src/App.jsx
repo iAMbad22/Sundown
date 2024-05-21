@@ -103,7 +103,7 @@ const [email, setEmail] = useState('');
           </div>
           <div className='relative h-[58vw] flex justify-end'>
           <Anime />
-          <video autoPlay loop muted className='absolute mt-[3vw] rounded-3xl' src="../video.mp4"></video>
+          <video autoPlay loop muted className='absolute mt-[3vw] rounded-3xl' src="https://videos.pexels.com/video-files/6774633/6774633-uhd_3840_2160_30fps.mp4"></video>
           </div>
           <div className='py-[2vw] whitespace-nowrap'>
             <Moving data={{1:'CONTENT',2:'ENVIRONMENTS',3:'EXPERIENCES'}}/>
